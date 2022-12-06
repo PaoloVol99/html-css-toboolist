@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+}
+
+.main-header {
+    height: 100px;
+    background-color: white;
+}
+
+.title {
+    display: inline-block;
+}
+
+.logo {
+    width: 80px;
+    vertical-align: middle;
+}
+
+.container {
+    background-color: white;
+    margin: 2px auto;
+    max-width: 900px;
+    padding: 10px 40px;
+}
+
+.buttons {
+    background-color: white;
+    margin: 20px auto 0;
+    max-width: 900px;
+    padding: 10px 0 10px 40px;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.button1 {
+    background-color: rgb(58, 130, 255);
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.button2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(154, 154, 154);
+    border: 1px solid rgb(154, 154, 154);
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.list1, .list2, .list3 {
+    padding-left: 30px;
+}
+
