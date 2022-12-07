@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(219, 219, 219);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .main-header {
@@ -15,6 +16,8 @@ body {
 
 .title {
     display: inline-block;
+    vertical-align: middle;
+    font-size: 48px;
 }
 
 .logo {
@@ -27,6 +30,7 @@ body {
     margin: 2px auto;
     max-width: 900px;
     padding: 10px 40px;
+    border-radius: 0 0 10px 10px;
 }
 
 .buttons {
@@ -63,6 +67,83 @@ body {
 }
 
 .list1, .list2, .list3 {
-    padding-left: 30px;
+    padding-left: 15px;
+    margin: 0;
 }
 
+li {
+    margin: 15px 0;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.check {
+    list-style-type: "\2713";
+}
+
+ul .check::marker {
+    color: green;
+}
+
+.cross {
+    list-style-type: "\2717"
+}
+
+ul .cross::marker {
+    color: red;
+    border-color: red;
+}
+
+.edit {
+    background-color: rgb(58, 130, 255);
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    vertical-align: middle;
+}
+
+.q1 {
+    background-color: rgb(147, 58, 255);
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    vertical-align: middle;
+}
+
+.rec {
+    background-color: rgb(66, 165, 84);
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    vertical-align: middle;
+}
+
+.mob {
+    background-color: rgb(255, 166, 50);
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    vertical-align: middle;
+}
+
+.web {
+    background-color: rgb(192, 96, 209);
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    vertical-align: middle;
+}
+
+.sales {
+    background-color: rgb(14, 208, 59);
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    vertical-align: middle;
+}
