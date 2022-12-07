@@ -10,35 +10,45 @@ body {
 }
 
 .main-header {
-    height: 100px;
     background-color: white;
+    padding: 10px 30px;
 }
 
 .title {
     display: inline-block;
     vertical-align: middle;
-    font-size: 48px;
+    font-size: 40px;
 }
 
 .logo {
-    width: 80px;
+    width: 60px;
     vertical-align: middle;
 }
 
 .container {
     background-color: white;
-    margin: 2px auto;
-    max-width: 900px;
+    margin: 0 auto;  
     padding: 10px 40px;
     border-radius: 0 0 10px 10px;
 }
 
+.main {
+    padding-top: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main2 {
+    padding: 2px 0 0 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .buttons {
     background-color: white;
-    margin: 20px auto 0;
-    max-width: 900px;
     padding: 10px 0 10px 40px;
     border-radius: 10px 10px 0 0;
+    margin: 0 auto;
     
 }
 
