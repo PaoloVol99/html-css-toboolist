@@ -38,7 +38,7 @@ body {
     margin: 0 auto;
 }
 
-.main2 {
+.box {
     padding: 2px 0 0 0;
     max-width: 900px;
     margin: 0 auto;
@@ -93,6 +93,7 @@ li {
 
 ul .check::marker {
     color: green;
+    border: 1px solid green;
 }
 
 .cross {
@@ -106,7 +107,7 @@ ul .cross::marker {
 
 .edit {
     background-color: rgb(58, 130, 255);
-    font-size: 10px;
+    font-size: 8px;
     padding: 3px;
     border-radius: 4px;
     color: white;
@@ -115,7 +116,7 @@ ul .cross::marker {
 
 .q1 {
     background-color: rgb(147, 58, 255);
-    font-size: 10px;
+    font-size: 8px;
     padding: 3px;
     border-radius: 4px;
     color: white;
@@ -124,7 +125,7 @@ ul .cross::marker {
 
 .rec {
     background-color: rgb(66, 165, 84);
-    font-size: 10px;
+    font-size: 8px;
     padding: 3px;
     border-radius: 4px;
     color: white;
@@ -133,7 +134,7 @@ ul .cross::marker {
 
 .mob {
     background-color: rgb(255, 166, 50);
-    font-size: 10px;
+    font-size: 8px;
     padding: 3px;
     border-radius: 4px;
     color: white;
@@ -142,7 +143,7 @@ ul .cross::marker {
 
 .web {
     background-color: rgb(192, 96, 209);
-    font-size: 10px;
+    font-size: 8px;
     padding: 3px;
     border-radius: 4px;
     color: white;
@@ -151,7 +152,7 @@ ul .cross::marker {
 
 .sales {
     background-color: rgb(14, 208, 59);
-    font-size: 10px;
+    font-size: 8px;
     padding: 3px;
     border-radius: 4px;
     color: white;
